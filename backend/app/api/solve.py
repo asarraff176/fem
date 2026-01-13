@@ -8,3 +8,11 @@ def add(a: int, b: int) -> int:
         "result": a + b
     }
 
+
+
+
+@app.get("/concrete")
+def add(a: int, b: int) -> int: 
+    return {
+        "result": a + b
+    }
